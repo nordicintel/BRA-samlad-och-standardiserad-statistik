@@ -11,9 +11,8 @@ De insamlade originalfilerna finns i [källfilsutgåvan](https://github.com/nord
 | Material | Nedladdning | Källadresser och kontrollsummor |
 |---|---|---|
 | 3 875 arbetsböcker | [ZIP, 166 MB](https://github.com/nordicintel/BRA-samlad-och-standardiserad-statistik/releases/download/kallfiler-2026-10-14/bra-source-workbooks.zip) | [Filmanifest](https://github.com/nordicintel/BRA-samlad-och-standardiserad-statistik/releases/download/kallfiler-2026-10-14/sources-manifest.json) |
-| 39 648 SOL-svar | [ZIP, 1,04 GB](https://github.com/nordicintel/BRA-samlad-och-standardiserad-statistik/releases/download/kallfiler-2026-10-14/sol-source-responses.zip) | [Fråge- och filmanifest, JSONL.gz](https://github.com/nordicintel/BRA-samlad-och-standardiserad-statistik/releases/download/kallfiler-2026-10-14/sol-source-manifest.jsonl.gz) |
 
-[SHA-256 för nedladdningarna](https://github.com/nordicintel/BRA-samlad-och-standardiserad-statistik/releases/download/kallfiler-2026-10-14/SOURCE-SHA256SUMS.txt). Arkiven innehåller också sina manifest. Varje manifest länkar tillbaka till Brås källadress; SOL-manifestet anger även frågeurvalet.
+[SHA-256 för nedladdningarna](https://github.com/nordicintel/BRA-samlad-och-standardiserad-statistik/releases/download/kallfiler-2026-10-14/SOURCE-SHA256SUMS.txt). Arbetsboksarkivet innehåller också sitt manifest. [SOL:s källadresser och frågeurval](https://github.com/nordicintel/BRA-samlad-och-standardiserad-statistik/releases/download/kallfiler-2026-10-14/sol-source-manifest.jsonl.gz) bevaras som proveniens; råa SOL-svar distribueras inte.
 
 ## Innehåll
 
@@ -30,7 +29,7 @@ Tabeller sammanförs utifrån Brås presentationer. Dimensioner och kategorier s
 - **JSON-stat:** sammanförda tabeller med kategorier, enheter och källnoter.
 - **Parquet:** tabeller för analys, med tillhörande metadata.
 - **CSV:** två versioner per dataset – kategorikoder respektive läsbara kategorietiketter, med samma värden och statusmarkeringar.
-- **Originalfiler:** källarbetsböcker och svar från Statistik On-line (SOL), med källadresser och kontrollsummor.
+- **Originalfiler:** källarbetsböcker med källadresser och kontrollsummor. SOL:s källadresser och frågeurval bevaras i proveniensen.
 - **Katalog och proveniens:** beskrivningar av dataset, sammanslagningar, källversioner och undantagna celler.
 
 Läs [om värden, korrigeringar och källor](DATA.md).
