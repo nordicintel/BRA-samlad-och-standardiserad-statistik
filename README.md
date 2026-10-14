@@ -17,8 +17,11 @@ Tabeller sammanförs utifrån Brås presentationer. Dimensioner och kategorier s
 - **Originalfiler:** källarbetsböcker och svar från Statistik On-line (SOL), med källadresser och kontrollsummor.
 - **Katalog och proveniens:** beskrivningar av dataset, sammanslagningar, källversioner och undantagna celler.
 
+Läs [om värden, korrigeringar och källor](DATA.md).
+
 ## Källa och användning
 
 Källa: [Brottsförebyggande rådet (Brå)](https://bra.se/statistik). Detta är en oberoende bearbetning av NordicIntel, inte en officiell publicering från Brå.
 
 Brås löpande publicerade statistik får vidareutnyttjas fritt, utan avgifter eller villkor. Läs [Brås information om vidareutnyttjande](https://bra.se/om-bra/om-webbplatsen/data-fran-bra).
+
