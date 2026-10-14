@@ -9,8 +9,8 @@ Statistik från Brottsförebyggande rådet i lättillgängliga format, sammanst�
 | Format | Nedladdning |
 |---|---|
 | JSON-stat, samtliga dataset | [ZIP](https://github.com/nordicintel/BRA-samlad-och-standardiserad-statistik/releases/download/data-2026-10-15/jsonstat-datasets.zip) |
-| CSV med kategorikoder, samtliga dataset inklusive SOL | Uppladdning pågår – se [fillistan](manifest.csv) |
-| CSV med läsbara kategorietiketter, samtliga dataset inklusive SOL | Uppladdning pågår – se [fillistan](manifest.csv) |
+| CSV med kategorikoder, samtliga dataset inklusive SOL | [Enskilda filer i fillistan](manifest.csv) |
+| CSV med läsbara kategorietiketter, samtliga dataset inklusive SOL | [Enskilda filer i fillistan](manifest.csv) |
 | Parquet, enskilda tabeller | [Hugging Face](https://huggingface.co/datasets/nordicintel/BRA-samlad-och-standardiserad-statistik) |
 | Källkopplingar, cellbeslut och granskningsresultat | [Proveniens, ZIP](https://github.com/nordicintel/BRA-samlad-och-standardiserad-statistik/releases/download/data-2026-10-15/provenance.zip) |
 
