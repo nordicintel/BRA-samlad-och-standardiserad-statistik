@@ -2,7 +2,18 @@
 
 Statistik från Brottsförebyggande rådet i lättillgängliga format, sammanställd av NordicIntel.
 
-**Första publiceringen förbereds.** Datamaterialet granskas och valideras. Nedladdningslänkar tillkommer när kontrollerna är klara.
+**De bearbetade dataseten valideras inför publicering.** Originalfilerna finns redan att ladda ned nedan.
+
+## Originalfiler
+
+De insamlade originalfilerna finns i [källfilsutgåvan](https://github.com/nordicintel/BRA-samlad-och-standardiserad-statistik/releases/tag/kallfiler-2026-10-14):
+
+| Material | Nedladdning | Källadresser och kontrollsummor |
+|---|---|---|
+| 3 875 arbetsböcker | [ZIP, 166 MB](https://github.com/nordicintel/BRA-samlad-och-standardiserad-statistik/releases/download/kallfiler-2026-10-14/bra-source-workbooks.zip) | [Filmanifest](https://github.com/nordicintel/BRA-samlad-och-standardiserad-statistik/releases/download/kallfiler-2026-10-14/sources-manifest.json) |
+| 39 648 SOL-svar | [ZIP, 1,04 GB](https://github.com/nordicintel/BRA-samlad-och-standardiserad-statistik/releases/download/kallfiler-2026-10-14/sol-source-responses.zip) | [Fråge- och filmanifest, JSONL.gz](https://github.com/nordicintel/BRA-samlad-och-standardiserad-statistik/releases/download/kallfiler-2026-10-14/sol-source-manifest.jsonl.gz) |
+
+[SHA-256 för nedladdningarna](https://github.com/nordicintel/BRA-samlad-och-standardiserad-statistik/releases/download/kallfiler-2026-10-14/SOURCE-SHA256SUMS.txt). Arkiven innehåller också sina manifest. Varje manifest länkar tillbaka till Brås källadress; SOL-manifestet anger även frågeurvalet.
 
 ## Innehåll
 
