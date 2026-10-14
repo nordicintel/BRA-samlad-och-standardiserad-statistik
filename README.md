@@ -21,10 +21,15 @@ Statistik om brott, misstänkta personer, lagföring, kriminalvård och återfal
 
 Tabeller sammanförs utifrån Brås presentationer. Dimensioner och kategorier standardiseras med hänsyn till mått, population och statistisk betydelse. Saknade värden och felmarkeringar i källorna bevaras uttryckligen.
 
+## Bearbetade data
+
+[Parquet-tabeller på Hugging Face](https://huggingface.co/datasets/nordicintel/BRA-samlad-och-standardiserad-statistik) publiceras löpande efter validering. Aktuell täckning anges där. JSON-stat samt CSV med kategorikoder respektive kategorietiketter förbereds för nedladdning via detta repo.
+
 ## Format
 
 - **JSON-stat:** sammanförda tabeller med kategorier, enheter och källnoter.
 - **Parquet:** tabeller för analys, med tillhörande metadata.
+- **CSV:** två versioner per dataset – kategorikoder respektive läsbara kategorietiketter, med samma värden och statusmarkeringar.
 - **Originalfiler:** källarbetsböcker och svar från Statistik On-line (SOL), med källadresser och kontrollsummor.
 - **Katalog och proveniens:** beskrivningar av dataset, sammanslagningar, källversioner och undantagna celler.
 
